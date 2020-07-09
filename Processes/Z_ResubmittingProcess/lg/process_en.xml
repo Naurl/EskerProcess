@@ -1,0 +1,4066 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TranslateCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" frozen="false">
+	<items>
+		<TranslateItem>
+			<key> ---</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> Importaciones</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> Nacional proyecto importaciones</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>-- none --</key>
+			<val>-- None --</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key> Pago de Servicios Públicos para procesos productivos (Cementos)</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> Pago directo aprobador</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> Pago Directo Aprobador CxP</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> Pagos Especiales CxP</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> Pagos recurrentes</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> Recibo a satisfacción</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  APA Vta Bien y Ser 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  ARM Vta Bien y Ser 1,5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  ARM Vta Bien y Ser 2,75%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  ARM Vta Bien y Ser 3,75%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  BGA Vta Bien y Ser 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  BMJ Vta Bien y Ser 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  BOG Vta Bien y Ser 0,1%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  BOG Vta Bien y Ser 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  BOG Vta Bien y Ser 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  DUI Vta Bien y Ser 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  GIR Vta Bien y Ser 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  GYB Vta Bien y Ser 3%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  LUR Vta Bien y Ser 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  MON Vta Bien y Ser 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  MON Vta Bien y Ser 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  MTB Vta Bien y Ser 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  NBS Vta Bien y Ser 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  PTA Vta Bien y Ser 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  SIN Vta Bien y Ser 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  STT Vta Bien y Ser 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  TAB Vta Bien y Ser 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  VLD Vta Bien y Ser 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  VLD Vta Bien y Ser 5,9%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA  VLD Vta Bien y Ser 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> RteICA Zipquira Trans de Carga  7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key> Servicios Públicos</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>_</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>_{0} on behalf of {1}</key>
+			<val>{0} on behalf of {1}</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_action_openInProcess:Export Invoices</key>
+			<val>Export</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_action_openInProcess:Vendor Invoice resubmitting</key>
+			<val>Resubmit Invoice</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Add</key>
+			<val>Add</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Add a controller</key>
+			<val>Add a reviewer</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Add an approver</key>
+			<val>Add an approver</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Add approver</key>
+			<val>Request further approval</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Add approver confirm message</key>
+			<val>The document will be sent to {0} for further approval.
+Once approved, it will be returned to you.
+Do you want to continue?</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Add approver requested</key>
+			<val>Further approval requested</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Add controller</key>
+			<val>Request further review</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Add controller requested</key>
+			<val>Further review requested</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Alternative payee</key>
+			<val>Alternative payee number</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Amount</key>
+			<val>Amount</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_APParameters</key>
+			<val>Parameters</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ApprovalDate</key>
+			<val>Date</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ApprovalDate_report</key>
+			<val>Action date</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Approve</key>
+			<val>Approve</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Approved</key>
+			<val>Approved</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Approved without reviewing</key>
+			<val>Batch approval</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Approver</key>
+			<val>User</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Approver {0}</key>
+			<val>Approver {0}</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Approver Information</key>
+			<val>Approvers</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ApproverAction</key>
+			<val>Action</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ApproverAction_report</key>
+			<val>Workflow action</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ApproverComment</key>
+			<val>Comment</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ApproverComment_report</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ApproverEmail</key>
+			<val>Approver email address</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ApproverID</key>
+			<val>Approver ID</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ApproverLabelRole</key>
+			<val>Role</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ApproverLabelRole_report</key>
+			<val>Role</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ApproversTable</key>
+			<val>Approvers</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Archive</key>
+			<val>Archive</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Archive and Request Approval</key>
+			<val>Archive and request approval</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Archive duration warning</key>
+			<val>Warning: This document will be archived for less than one year.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_AsideReason</key>
+			<val>Reason</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Assignment</key>
+			<val>Assignment</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_At least one required field is missing.</key>
+			<val>At least one required field is missing.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Automatic Processing</key>
+			<val>Automatic Posting</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Automatic processing enabled</key>
+			<val>Automatic posting enabled</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Automatic processing is possible</key>
+			<val>Automatic posting possible</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Automatic processing possible</key>
+			<val>Automatic posting possible</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Back to AP</key>
+			<val>Back to AP</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Back to AP history</key>
+			<val>Sent back to AP</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Back to previous</key>
+			<val>Back to previous</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Back to previous history</key>
+			<val>Sent back to previous</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Back to the invoice</key>
+			<val>Back to the invoice</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_BackToAPReason</key>
+			<val>Back to AP reason</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Balance</key>
+			<val>Balance</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Balance is not compute when unplanned delivery costs are specified</key>
+			<val>The balance is not calculated when unplanned delivery costs are specified</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Balance is not null</key>
+			<val>Invalid balance</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Baseline date</key>
+			<val>Baseline date</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Budget Export Status</key>
+			<val>Budget update status</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Business area</key>
+			<val>Business area</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Buyer</key>
+			<val>Buyer</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Calculate tax</key>
+			<val>Calculate taxes</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Cannot post invoice</key>
+			<val>Posting error</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_City</key>
+			<val>City</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Class</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Class1</key>
+			<val>Class</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_CloseBrowsePage</key>
+			<val>Close</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_CodingTemplate</key>
+			<val>Assignment template</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_CodingTemplate_report</key>
+			<val>Assignment template</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Comment</key>
+			<val>Comment</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_CommentHistory</key>
+			<val>{0} by {1}</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_CommentHistoryNoUser</key>
+			<val>{0}</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Comments:</key>
+			<val>Comments:</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Company code</key>
+			<val>Company code</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ComputingWorkflow</key>
+			<val>Computing workflow...</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Confirm</key>
+			<val>An assignment template with the same name already exists. Are you sure you want to replace the existing assignment template?</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Confirm button</key>
+			<val>Confirm</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Confirm create CI and contact vendor</key>
+			<val>In order for you to send a message to {0}, the customer invoice associated to this vendor invoice needs to be published on the vendor portal. This may take a few seconds. 
+Do you want to continue?</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Confirm duplicate {0}</key>
+			<val>Confirm {0}</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Confirmation</key>
+			<val>Confirmation</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Contact the vendor</key>
+			<val>Warning</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Contact Vendor</key>
+			<val>Send a message</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Controller</key>
+			<val>Reviewer</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Controller Information</key>
+			<val>Reviewers</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ConversationUI</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Cost center</key>
+			<val>Cost center</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Cost center description</key>
+			<val>Cost center description</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Could not get payment terms for document number '{0}': {1}</key>
+			<val>Could not get payment terms for document number '{0}': {1}</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Country</key>
+			<val>Country</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_County</key>
+			<val>County</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Currency rate %1 / %2 rate type %3 for %4 not maintained in the system settings</key>
+			<val>Enter rate %1 / %2 rate type %3 for %4 in the system settings.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Current exception</key>
+			<val>Exception type</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Current exception_report</key>
+			<val>Exception type</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Customer invoice received</key>
+			<val>Receipt confirmation for invoice {0}</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Date</key>
+			<val>Date</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Date Last Export</key>
+			<val>Date of last export</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Date Last Payment Approval Export</key>
+			<val>Payment release last exported</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Default payment terms</key>
+			<val>Apply vendor default payment terms</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Delivered amount</key>
+			<val>Delivered amount</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Delivered quantity</key>
+			<val>Delivered quantity</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Delivery note</key>
+			<val>Delivery note number</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Description</key>
+			<val>Description</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Details</key>
+			<val>Details</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_DigitalSignature</key>
+			<val>Digital signature</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_DigitalSignature_report</key>
+			<val>Digital signature</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Document automatically processed</key>
+			<val>Invoice automatically posted</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Document check - no errors</key>
+			<val>Document check - no errors</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Due date</key>
+			<val>Due date</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Duplicate detected</key>
+			<val>Duplicate detected</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Duplicates</key>
+			<val>Duplicates</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_EBS</key>
+			<val>Oracle E-Business Suite</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Edit invoice</key>
+			<val>Invoice edited</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Email</key>
+			<val>Email address</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Enable automatic processing for this vendor's PO invoices</key>
+			<val>Enabled for this vendor</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Enter a Vendor invoice</key>
+			<val>Enter a vendor invoice</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Enter your comment...</key>
+			<val>Enter a comment...</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ERP</key>
+			<val>ERP</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ERP Details</key>
+			<val>ERP Information</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ERP integration in timeout</key>
+			<val>ERP integration timeout</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ERP Invoice number</key>
+			<val>ERP invoice number</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ERP Invoice number no found</key>
+			<val>Invoice not found in SAP.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ERP Linking date</key>
+			<val>Link date</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ERP MM Invoice number</key>
+			<val>MM invoice number</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ERP payment blocked</key>
+			<val>Payment blocked in SAP</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ERP Posting date</key>
+			<val>Posting date</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ERP posting error</key>
+			<val>ERP posting error</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ERP Unblock payment failed with the following reason:</key>
+			<val>SAP Unblock payment failed for the following reasons:</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ERPUnblockPaymentButtonsDescription</key>
+			<val>What would you like to do?</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Error over invoicing detected</key>
+			<val>The outstanding quantities and amounts have been updated in the meantime. Please check that the invoiced amount and quantities are assigned to the correct lines.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Error reading table field {0}, please customize your tolerance limits. {1} limit will be used.</key>
+			<val>Error reading table field {0}, please customize your tolerance limits. {1} limit will be used.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Error while computing the tax amount</key>
+			<val>Error calculating the tax amount</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Errors</key>
+			<val>Errors</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Event_history</key>
+			<val>Conversation with {0}</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Events</key>
+			<val>Conversation</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Exception</key>
+			<val>Exception code</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Exception_report</key>
+			<val>Exception code</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ExceptionDesc</key>
+			<val>Exception</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ExceptionDesc_report</key>
+			<val>Exception</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ExceptionsType</key>
+			<val>Invoice Exceptions</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Exchange rate</key>
+			<val>Exchange rate</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Exchange rate_report</key>
+			<val>Exchange rate</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Expected amount</key>
+			<val>Amount to invoice</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Expected quantity</key>
+			<val>Quantity to invoice</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Extracted line items</key>
+			<val>Extracted line items</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Extracted net amount</key>
+			<val>Extracted net amount</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Failed to forward</key>
+			<val>Failed to forward.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Failed to unblock payment</key>
+			<val>Unblock payment failed</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_FirstAttachRemovabled</key>
+			<val>First editable attachment index</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_From</key>
+			<val>Ordered since</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_G/L account</key>
+			<val>G/L account</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_G/L account description</key>
+			<val>G/L account description</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Generic</key>
+			<val>Generic</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Goods receipt</key>
+			<val>Goods receipt</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Goods receipt updated for the following orders :{0}</key>
+			<val>Updated based on delivery of order # {0}</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Goods receipts ({1}) updated for the following orders :{0}</key>
+			<val>Updated based on delivery of order # {0} (corresponding delivery notes: {1})</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_GRIV</key>
+			<val>GRIV</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Group</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Group_report</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Header text</key>
+			<val>Header text</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_HideHistoryView</key>
+			<val>Hide history</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_HideHistoryViewForApprovers</key>
+			<val>Hide history</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_History</key>
+			<val>History</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_HistoryView</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>_HistoryViewNoItem</key>
+			<val>There are no items to display</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_HistoryViewPanelDefault</key>
+			<val>Billing History</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_HistoryViewPanelForVendorX</key>
+			<val>Billing History of {0}</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_HoldingComment</key>
+			<val>Comment</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Incomplete item detected</key>
+			<val>Incomplete item detected</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_InternalOrder</key>
+			<val>Order</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_InternalOrder_report</key>
+			<val>Order</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invalid Corrupted</key>
+			<val>Invalid/Corrupted</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invalid invoice document number '{0}'</key>
+			<val>Invalid invoice reference number '{0}'</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invalid parameters</key>
+			<val>Invalid validation parameters</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Investment</key>
+			<val>Capital goods investment</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Investment report</key>
+			<val>Capital goods investment</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invoice amount</key>
+			<val>Invoice amount</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invoice currency</key>
+			<val>Invoice currency</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invoice currency_report</key>
+			<val>Invoice currency</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invoice date</key>
+			<val>Invoice date</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invoice description</key>
+			<val>Text</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invoice description report</key>
+			<val>Text</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invoice Details</key>
+			<val>Invoice Details</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invoice Details for approvers (left)</key>
+			<val>Invoice Details</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invoice Details for approvers (right)</key>
+			<val>Status Information</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invoice number</key>
+			<val>Invoice number</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invoice on hold</key>
+			<val>Invoice on hold</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invoice Processing</key>
+			<val>Invoice Processing</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invoice reference</key>
+			<val>Invoice reference</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invoice signed ko</key>
+			<val>Digital signature information: The digital signature on this invoice is invalid.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invoice signed ko due to wrong parameters</key>
+			<val>Digital signature information: The digital signature on this invoice cannot be validated because the validation parameters are missing or incorrect.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invoice signed ok</key>
+			<val>Digital signature information: The digital signature on this invoice is valid and trusted.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invoice status</key>
+			<val>Invoice status</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invoice type</key>
+			<val>Invoice type</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invoiced amount</key>
+			<val>Invoiced amount</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Invoiced quantity</key>
+			<val>Invoiced quantity</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_InvoiceRejected</key>
+			<val>Rejected</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_InvoiceReviewed</key>
+			<val>Invoice reviewed</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Item '{0}'/'{1}': '{2}'</key>
+			<val>Item {0}/{1}: {2}</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Item number</key>
+			<val>Line number</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Items for purchase order #{0}</key>
+			<val>Items for purchase order {0}</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_JDE</key>
+			<val>JD Edwards EnterpriseOne</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Jurisdiction code</key>
+			<val>Jurisdiction</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Kind of line popup question</key>
+			<val>What type of line item do you want to add?</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Kind of line popup title</key>
+			<val>Add line item</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_LastArchiveEditionDate</key>
+			<val>Archive last edited date</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_LastArchiveEditionDate_report</key>
+			<val>Archive last edited date</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_LastArchiveEditor</key>
+			<val>Last archive editor</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_LastArchiveEditor_report</key>
+			<val>Last archive editor</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_LastValidatorName</key>
+			<val>Last modified by (name)</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_LastValidatorUserId</key>
+			<val>Last modified by (ID)</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Learn more</key>
+			<val>Learn more</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item '{0}' is invalid. Specify account number.</key>
+			<val>Line item '{0}' is invalid. Specify account number.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item '{0}' is invalid. Specify jurisdiction for tax code '{1}'.</key>
+			<val>Line item '{0}' is invalid. Specify jurisdiction for tax code '{1}'.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item amount</key>
+			<val>Amount</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item amount extracted</key>
+			<val>Amount</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item business area</key>
+			<val>Business area</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item cost center</key>
+			<val>Cost center</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item cost center description</key>
+			<val>Cost center description</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item delivery note extracted</key>
+			<val>Delivery note</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item description</key>
+			<val>Descriptions</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item G/L account</key>
+			<val>G/L account</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item G/L account description</key>
+			<val>G/L accounts description</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item jurisdiction code</key>
+			<val>Jurisdiction</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item number</key>
+			<val>Line item numbers</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item order number</key>
+			<val>Order numbers</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item order number extracted</key>
+			<val>Order number</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item part number</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item part number extracted</key>
+			<val>Reference</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item quantity</key>
+			<val>Quantities</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item quantity extracted</key>
+			<val>Quantity</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item tax amount</key>
+			<val>Tax amounts</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item tax code</key>
+			<val>Tax codes</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item tax rate</key>
+			<val>Tax rates</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item unit price</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line item unit price extracted</key>
+			<val>Unit price</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line Items</key>
+			<val>Line Items</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line Items Recognition</key>
+			<val>Extracted Line Items</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line Type</key>
+			<val>Line item type</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line with empty amount will be ignored.</key>
+			<val>Line items with empty amount will be ignored.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Line with empty quantity will be ignored.</key>
+			<val>Line items with empty quantity will be ignored.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Link</key>
+			<val>Link to ERP</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Link and Request Approval</key>
+			<val>Link to ERP and request approval</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Linked</key>
+			<val>Linked to ERP</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Load template</key>
+			<val>Load assignment template</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Local currency</key>
+			<val>Local currency</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Local currency_report</key>
+			<val>Local currency</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Local invoice amount</key>
+			<val>Invoice amount (local currency)</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Local invoice amount_report</key>
+			<val>Invoice amount (local currency)</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Local net amount</key>
+			<val>Net amount (local currency)</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Local net amount_report</key>
+			<val>Net amount (local currency)</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Local tax amount</key>
+			<val>Tax amount (local currency)</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Local tax amount_report</key>
+			<val>Tax amount (local currency)</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Login</key>
+			<val>Login</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Manual Link Explanation</key>
+			<val>This invoice has been posted manually in ERP.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Manually done</key>
+			<val>Manually unblock in SAP</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Manually Linked</key>
+			<val>Posted manually in ERP</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Manually unblock in SAP confirmation</key>
+			<val>Make sure the invoice is manually unblocked for payment in SAP.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Manually unblock in SAP confirmation line 2</key>
+			<val>By clicking on Confirm, you finalize the processing of this invoice.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Material</key>
+			<val>Material</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Name</key>
+			<val>Name</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_NAV</key>
+			<val>Microsoft Dynamics NAV</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Net amount</key>
+			<val>Net amount</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_No items have been found for the purchase order #{0}.</key>
+			<val>No items found for purchase order #{0}.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_No order found for this vendor.</key>
+			<val>No orders found for this vendor.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_No tax codes were specified even though the '{0}' checkbox is checked.</key>
+			<val>No tax codes were specified even though the option '{0}' is checked.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_NON-PO Line</key>
+			<val>Non-PO line item</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Not a valid email address</key>
+			<val>Enter a valid email address.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Not signed</key>
+			<val>No signature</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Number</key>
+			<val>Number</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_OnHold</key>
+			<val>Put on hold</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_OnHold invoice status warning</key>
+			<val>This invoice has been put on hold.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Only show open orders/items</key>
+			<val>Show only open orders/items</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Open amount</key>
+			<val>Open amount</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Open quantity</key>
+			<val>Open quantity</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Order date</key>
+			<val>Order date</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Order number</key>
+			<val>Order number</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Order number filter</key>
+			<val>Purchase order number</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Ordered amount</key>
+			<val>Ordered amount</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Ordered quantity</key>
+			<val>Ordered quantity</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Owner</key>
+			<val>Owner</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Part number</key>
+			<val>Reference</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Payee {0} is not defined for account {1}</key>
+			<val>Payee {0} is not defined for account {1}</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Payment</key>
+			<val>Payment</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Payment Approval</key>
+			<val>Workflow</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Payment approval mode</key>
+			<val>Approval mode</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Payment approval requested</key>
+			<val>Payment approval requested</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Payment approval status</key>
+			<val>Payment approval status</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Payment Date</key>
+			<val>Payment date</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Payment Details</key>
+			<val>Payment Details</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Payment Method</key>
+			<val>Payment method</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Payment Method_report</key>
+			<val>Payment method</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Payment Reference</key>
+			<val>Payment reference</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Payment terms</key>
+			<val>Payment terms</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_PaymentApproved</key>
+			<val>Payment approved</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Plant</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Plant1</key>
+			<val>Plant</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Please choose a company code first.</key>
+			<val>Please choose a company code first.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Please choose a vendor first.</key>
+			<val>Please specify a vendor first.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_PO Line</key>
+			<val>PO line item</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_PO_Item</key>
+			<val>Order Item</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_PO_Number</key>
+			<val>Order Number</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Portal Ruidex</key>
+			<val>Submission ID</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Post</key>
+			<val>Post</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Post and Request Approval</key>
+			<val>Post and request approval</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Posting date</key>
+			<val>Posting date</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_processFormula_Processing time</key>
+			<val>Processing time</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Purchase order headers</key>
+			<val>Purchase order headers</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Purchase order items</key>
+			<val>Purchase order items</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Purchase order items for {0}</key>
+			<val>Purchase order items ({0})</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Purchase orders</key>
+			<val>Purchase orders</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Quantity</key>
+			<val>Quantity</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Quantity_Delivered</key>
+			<val>Delivered Quantity</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Quantity_In_PO</key>
+			<val>Ordered Quantity</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Quantity_Total_inv</key>
+			<val>Total Invoiced Quantity</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Received</key>
+			<val>Received</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Receiver</key>
+			<val>Recipient</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ReceptionMethod</key>
+			<val>Reception method</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ReceptionMethod_report</key>
+			<val>Reception method</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ReconcileWarning</key>
+			<val>The Quantity and Amount columns are pre-filled based on the reference purchase order.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Region</key>
+			<val>State/Region</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_RejectReason</key>
+			<val>Rejection reason</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Replacing Baseline Date '{0}' by '{1}' during simulation</key>
+			<val>Replacing Baseline Date '{0}' by '{1}' during simulation</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Replacing Payment Block '{0}' by '{1}' during simulation</key>
+			<val>Replacing Payment Block '{0}' by '{1}' during simulation</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Replacing Payment Terms '{0}' by '{1}' during simulation</key>
+			<val>Replacing Payment Terms '{0}' by '{1}' during simulation</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Request Approval</key>
+			<val>Request Approval</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Request Teaching</key>
+			<val>Request Teaching</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Resubmitted</key>
+			<val>Resubmitted</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Resubmitting Invoices</key>
+			<val>Resubmitting Invoices</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Retry payment unblock</key>
+			<val>Retry now</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Reverse invoice</key>
+			<val>Reverse invoice</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Reverse invoice explanation message</key>
+			<val>This action doesn't reverse the invoice in your ERP, you need to reverse it manually.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Reverse invoice history</key>
+			<val>Invoice reversed</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Reversed invoice warning</key>
+			<val>This invoice has been reversed.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Review requested</key>
+			<val>Forwarded for review</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Risk of duplicates with the following invoice(s)</key>
+			<val>Possible duplicates with the following invoices:</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Role APEnd</key>
+			<val>AP Specialist</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Role approver</key>
+			<val>Approver</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Role APStart</key>
+			<val>AP Specialist</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Role controller</key>
+			<val>Reviewer</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_SAP</key>
+			<val>SAP</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_SAP Invoice number</key>
+			<val>SAP Invoice number</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_SAP Payment method</key>
+			<val>Payment method</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_SAP Payment method_report</key>
+			<val>Requested payment method (SAP code)</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_SAP Post successful</key>
+			<val>Invoice posted in SAP</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_SAP Posting errors</key>
+			<val>Errors posting invoice in SAP</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_SAP Posting ok</key>
+			<val>The invoice has been posted successfully in SAP.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_SAP_Simulation_Result</key>
+			<val>Simulation result</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Save new template</key>
+			<val>New Assignment Template</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Save template</key>
+			<val>Save assignment template</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Select aside reason</key>
+			<val>Reason</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Select back to ap reason</key>
+			<val>Reason</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Select on hold reason</key>
+			<val>Reason</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Select reject reason</key>
+			<val>Reason</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Selected Invoices</key>
+			<val>Selected Invoices</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Set aside</key>
+			<val>Set aside</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Set aside history</key>
+			<val>Set aside</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Set aside title</key>
+			<val>Set aside</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Set on hold</key>
+			<val>Put on hold</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Set on hold history</key>
+			<val>Put on hold</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ShowHistoryView</key>
+			<val>Show history</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ShowHistoryViewForApprovers</key>
+			<val>Show history</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Simulate</key>
+			<val>Simulate</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Simulation results</key>
+			<val>Simulation results</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Skipped</key>
+			<val>Skipped</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Some items are incomplete and will be ignored, do you want to continue ?</key>
+			<val>Some items are incomplete and will be ignored. Are you sure you want to continue?</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Street</key>
+			<val>Street</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Tax amount</key>
+			<val>Tax amount</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Tax code</key>
+			<val>Tax code</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Tax entered incorrect (code '{0}', amount '{1}'), correct '{2}' '{3}'.</key>
+			<val>Tax entered incorrect (code {0}, amount {1}), correct value is {2} {3}.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Tax entry not possible in this item.</key>
+			<val>Tax entry not possible in this item.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Tax rate</key>
+			<val>Tax rate</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Teaching request</key>
+			<val>Teaching request</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Template name</key>
+			<val>Name</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_TemplateWarning</key>
+			<val>The assignment template associated with this vendor was not found.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_The {0} is required for teaching</key>
+			<val>The {0} field is required for teaching.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_The exception {0} is set but no reviewer is selected.</key>
+			<val>You need to choose the reviewer to whom you want to forward this invoice to handle the selected exception ({0}).</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_The first time recognition have not been performed</key>
+			<val>The data extraction has not been performed correctly. Please complete the form manually.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_The line item #{0} has been added.</key>
+			<val>Line item #{0} has been added.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_The line items have been updated with purchase order #{0}.</key>
+			<val>The line items have been updated with purchase order #{0}.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_The payment for this invoice has been previously put on hold, do you confirm the payment approval ?</key>
+			<val>The payment of this invoice has been put on hold. Do you want to approve the payment now?</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_The PO lines details have not been filled</key>
+			<val>The purchase order items could not be retrieved. Please complete the form manually.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_The result list below only displays the items mentioned on the delivery notes</key>
+			<val>This list only displays the items mentioned on the delivery notes corresponding to your search criteria.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_The tax amount must not be greater than the tax base.</key>
+			<val>The tax amount must not be greater than the tax base.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_the template name already exists</key>
+			<val>Warning</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_This action will delete company code related fields.</key>
+			<val>Any fields related to the company code will be reset.
+Are you sure you want to continue?</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_This action will delete the current line items.</key>
+			<val>This action will delete the current line items.
+Are you sure you want to continue?</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_This order number is not associated to any vendor</key>
+			<val>This order number is not associated to any vendor.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_This order number is not associated to the current vendor</key>
+			<val>This order number is not associated to the current vendor.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_This value exceeds the amount still to be invoiced ({0})</key>
+			<val>This value exceeds the amount ordered and not yet invoiced ({0}).</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_This value exceeds the expected amount ({0})</key>
+			<val>This value exceeds the amount delivered and not yet invoiced ({0}).</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_This value exceeds the expected quantity ({0})</key>
+			<val>This value exceeds the quantity delivered and not yet invoiced ({0}).</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_This value exceeds the quantity still to be invoiced ({0})</key>
+			<val>This value exceeds the quantity ordered and not yet invoiced ({0}).</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_To</key>
+			<val>Ordered until</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Too long extraction</key>
+			<val>Warning</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_TopMessageWarning</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Unable to send the invoice XML data file to the specified SFTP configuration, please check your configuration.</key>
+			<val>Unable to send the invoice XML data file to the specified SFTP configuration, please check your configuration.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Unblock payment recovered automatically</key>
+			<val>Payment unblocked</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Unblock payment warning</key>
+			<val>Unblock Payment Failed</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_UnblockPaymentSkipped</key>
+			<val>Payment manually unblocked in SAP</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Unit price</key>
+			<val>Unit price</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Unknown</key>
+			<val>Not activated</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Unplanned delivery costs</key>
+			<val>Unplanned delivery costs</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_UpdatePayment</key>
+			<val>Enter payment details</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Validated</key>
+			<val>Posted</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Validated automatically</key>
+			<val>Automatically posted</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Vendor city</key>
+			<val>Vendor city</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Vendor country</key>
+			<val>Vendor country</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Vendor Information</key>
+			<val>Vendor Information</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Vendor name</key>
+			<val>Vendor name</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Vendor number</key>
+			<val>Vendor number</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Vendor region</key>
+			<val>Vendor state/region</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Vendor street</key>
+			<val>Vendor street</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Vendor zip code</key>
+			<val>Vendor zip code</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_VendorContactEmail</key>
+			<val>Email</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_VerificationDate</key>
+			<val>Verification date</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Verified</key>
+			<val>Verified</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_View</key>
+			<val>View</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ViewAsideReason</key>
+			<val>On hold reason</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ViewItems</key>
+			<val>View items</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_ViewVerificationDate</key>
+			<val>Verification date</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Warning</key>
+			<val>Warning</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_WBSElement</key>
+			<val>WBS element</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_WBSElement_report</key>
+			<val>WBS element</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_WorkflowIndex</key>
+			<val>Workflow step</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_WorkflowIndex_report</key>
+			<val>Workflow step</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_WorkflowInitiator</key>
+			<val>Approval requester</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_You are about to add a complete purchase order containing {0} lines</key>
+			<val>You are about to add a purchase order with {0} lines. This may take a few minutes. Do you want to continue?</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_You are about to send a teaching request</key>
+			<val>You are about to send a teaching request.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_You are about to send a teaching request for vendor number: {0}</key>
+			<val>You are about to send a teaching request for vendor #{0}.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>_Zip code</key>
+			<val>ZIP code</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>{0}: {1}</key>
+			<val>{0}: {1}</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Alert on duplicates</key>
+			<val>Alert on duplicates for this vendor</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>AlternativePayee__</key>
+			<val>Vendor number</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>An invoice is waiting for payment approval.</key>
+			<val>An invoice is waiting for payment approval.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>An invoice is waiting for review.</key>
+			<val>An invoice is waiting for review.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>An unexpected error occurred with the SAP connectivity.</key>
+			<val>An unexpected error occurred with the SAP connection.</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Approved</key>
+			<val>Approved</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Approved for payment first, then posted</key>
+			<val>Request approval first, then post</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Armenia Act Industrial 3.8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoReteICA Armenia serv Indust 3.8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Barranquilla</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Bquilla Vta Bie y Serv 5.4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Bquilla Vta Bien y Serv 7 %°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Calarca Prod vta concre 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Cali Fab art hormigon 6.6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Cgena Bien y Serv  3.5 %°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Cgena Todas Act Come 7 %°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Cgena Trsprte Pasajero  5 %°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Cgena Vta Bien y Serv 8 %°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Galapa Vta Bien y Serv 7.1%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Guaduas  Com Ind Serv 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Guaduas Vta Bien y Serv 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Ituango Serv Industriales8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA LaPltHuila Vta Bien Serv 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA LaPltHuila Vta BienServ3.5%º</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Mntebell Vta Bie y Serv 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Mntebell Vta Bien y Serv 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Pereira Act Industrial 5.4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA PNare Vta Bienes y Serv 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA PNare Vta Bienes y Serv 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA PtoColom Vta Bienyserv 4.5%o</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoReteICA Soledad Otras Activ Serv 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Soledad Servicios 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA SoledadVta Bien y Serv 6.5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Sonson Vta Bien y Serv  8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Sonson Vta Bien y Serv 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Sonson Vta Bien y Serv 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Sta Marta Serv de Transp 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Sta Marta Serv Transp 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutoreteICA Vdupar Serv de Transp 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutRfte CREE 0%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutRfte CREE 0.4%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutRfte CREE 0.8%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutRfte CREE 1.5%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutRfteRta   Arrend Muebles 4%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutRfteRta  Arrend Inmuebles 3,5%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutRfteRta  Otros Ingresos 2.5%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutRfteRta  Rendimientos Financieros 4%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutRfteRta  Serv. Persona Natural 6%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutRfteRta  Servicios Fletes 1%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutRfteRta  Ventas 2.5%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutRfteRta Honorarios, Comisiones PJ 10%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutRfteRta Honorarios, Comisiones PJ 11%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutRfteRta Serv. Persona Juridica 4%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutRfteRta Venta 0%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>AutRfteRta Ventas Activos Fijos 1%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>BeginDate__</key>
+			<val>From invoice date</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Buyer</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Cargo/Descargo Posterior</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Cash</key>
+			<val>Cash payment</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Check</key>
+			<val>Check</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Class</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Cont.Cond.</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Cost center / GL account is missing</key>
+			<val>Cost center / GL account is missing</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Costos Indirectos</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Credit card</key>
+			<val>Credit card</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Do not alert on duplicates</key>
+			<val>Do not alert on duplicates</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Document already processed</key>
+			<val>Document already processed</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Document is not an invoice</key>
+			<val>Document is not an invoice</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>EFT</key>
+			<val>Electronic Funds Transfer</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Email</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>EndDate__</key>
+			<val>To invoice date</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Esker Accounts payable</key>
+			<val>Esker Accounts Payable</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>FiscalYear__</key>
+			<val>Fiscal year</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Forward</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>History</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>If at least 1 value is identical</key>
+			<val>If at least 1 value is identical</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>If at least 2 values are identical</key>
+			<val>If at least 2 values are identical</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>If at least 3 values are identical</key>
+			<val>If at least 3 values are identical</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Importación</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Incluir</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Incorrect data capture</key>
+			<val>Incorrect data capture</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Ind. Retención</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Indicador</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Invalid signature</key>
+			<val>Invalid signature</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>LineType</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>NIT</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>NIT Comp.</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>NIT Prov.</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Nivel Cond.</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>No definida</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Non-PO Invoice</key>
+			<val>Non-PO Invoice</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Not requested</key>
+			<val>Not requested</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Nro de Radicación</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Número de batch</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>On hold</key>
+			<val>On hold</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Other</key>
+			<val>Other</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Other reason</key>
+			<val>Other reason</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Paid</key>
+			<val>Paid</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Pending</key>
+			<val>In progress</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Plant</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>PO Invoice</key>
+			<val>PO Invoice</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>PO Invoice (as FI)</key>
+			<val>PO Invoice (via FI)</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Posted</key>
+			<val>Posted</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Posted first, then sent for payment approval</key>
+			<val>Post first, then request approval</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Price variance</key>
+			<val>Price mismatch</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Quality inspection</key>
+			<val>Quality inspection</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Quantity variance</key>
+			<val>Quantity mismatch</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Received</key>
+			<val>Received</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Receiver</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Rejected</key>
+			<val>Rejected</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Ret ICA Clte Cajica Serv Trans 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Ret ICA Clte Gdot Serv Trans 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Ret ICA Clte Luruaco  Serv Trans 4.5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Ret ICA Clte Mede  Serv Trans 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Ret ICA Clte Mont Serv Trans 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Ret ICA Clte Past Serv Trans 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Ret ICA Clte Saba Gde Serv Trans 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Ret ICA Clte San tolu Serv Trans 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Ret ICA Clte Soogam Serv Trans 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Ret ICA Clte Tlv Serv Trans 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Ret ICA Clte Tulua Serv Trans 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Ret ICA Clte Vllcio Serv Trans 2%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Ret ICA sugerida Pto LibertdTrans 10%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Ret ICA sugerida Sabanagrande  Trans 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Ret ICA sugerida Saldaña  Trans 10,7%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Ret ICA sugerida San Gil  Trans 3%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Ret ICA sugerida Soacha  Trans 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Ret ICA sugerida Soogamoso  Trans 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Ret ICA sugerida Toluviejo  Trans 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Ret ICA sugerida Yumbo  Trans 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>ReteICA Dagua Actv de servicio 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>ReteICA Dagua Comercio combustible 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Retenciones</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Rética Macanal Ind Comer Serv 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Reversed</key>
+			<val>Reversed</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Rfte mandato FB Hon sin ánimo d lucro 0%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Rfte mandato FB Ser sin ánimo d lucro 0%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Rfte sin ánimo de lucro 0%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta  Contratos Admon Delgada 10%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta  Pagos Al Exterior 10%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta  Pagos Al Exterior 80%  Del 33%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta 0%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Arrend. Bienes Inmuebles 2.5%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Arrend. Bienes Inmuebles 3.5%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Arrendamiento Bienes Muebles 4%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Comisiones Declarantes 11%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Comisiones No Declarantes 10%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Compras 2.5%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Compras Combustibles 0.1%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Compras Contratos Construccion2%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Compras Inmuebles y Vehiculos 1%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Compras Prod Agropecuarios 1.5%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Dividendos Declarantes  20%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Dividendos No Declarantes  33%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Honorarios Consultoria de ING 6%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Honorarios Declarantes 11%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Honorarios No declarantes 10%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Ley 1429 0%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Licencia Software Declarante3.5%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Licencia Software No Decl 10%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta mandato FB 0%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta mnd FB Honorarios Declar 11%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta mnd FB Serv En General Decla 4%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Otros Ingresos Tributarios 2.5%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Otros ingresos tributarios 3.5%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Otros Pagos Al Exterior 14%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Pago al Ext llave en Mano del 1%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Pagos Al Exterior  33%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Pagos Al Exterior Dividendos 33%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Rend Titulos Con Descuento 4%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Rendimientos Financieros 4%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Rendimientos Financieros 7%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Serv En General Declarantes 4%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Serv En General No Declarante 6%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Serv Restaurante y Hoteles 35%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Serv Salud Aseo y Vigilancia  2%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Serv Temporales De Empleo 1%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Serv Transporte Aereo 1%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Serv Transporte Nacional Carga1%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Serv Transporte Nal Pasajero3.5%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RfteRta Transp Internacional de Carga 3%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Rte ICA Inza Avisos Y Tableros 15%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA  BGA Vta Bien y Ser 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA  MTB Serv transporte carga 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA  Paipa Serv transporte carga10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA  Pereira Act Comer y Servi 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA  Pereira Actividades Servicios 7%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA  San Gil Vta Bien y Ser 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA  SOG Vta Bien y Ser 3%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA  Tabio Serv transporte carga 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Aguazul Transporte Carga 5%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Armenia Hospedajes 7.3%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Armenia Productos Aliment 3.6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Armenia Sector Fro y Seguros 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Armenia serv agropecuarios 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Armenia Serv generales 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Armenia serv Industriales 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Armenia Serv Vigilancia 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Armenia Transp carga pasaje 4.5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Armenia Transporte de carga 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Baquilla "NO UTILIZAR"</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Baquilla Act comericial 9.6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bbmeja Act Industriales 2%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bbmeja Act Servicios 9%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bbmeja Vta de Bien y Serv 3%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bbmeja Vta de Bien y Serv 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bbmeja Vta de Bien y Serv 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bbmeja Vta de Bien y Serv 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA BbmejaVta de Bien y Serv 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bello Act Comer Ind Ser 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bello Transporte Carga 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Betulia Transp Flete Acarreos 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Betulia Transporte Carga 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA BGA Transporte Carga 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bog Act comercial 11.04%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bog Ots act. Com y serv. 4.14%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bogota Transporte Carga 4.14%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bogta Act Transporte 4.14%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bogta Demas Activ Comer 11.4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bogta Edicion Libros 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bogta Educacion 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bogta Otras Activ de Serv 9.66%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bogta Vta Bien y Serv 13.8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bogta Vta Bien y Serv 6.9%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bquilla Acti Financieras 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bquilla Activid Indstriales 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bquilla Bien y Serv 5.4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bquilla Otros Servicios 9.6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bquilla Serv Rest Hoteles 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bquilla Vta de Alimentos 4.2%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bucara Servicios Financieros 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Bucaramanga 5x1000</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA BucaramangaTransporte Carga 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Buenaventura Transporte Carga 10%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA BuenaventuraTransporte Carga 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Buenos aires Transporte Carga 10%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Buenos aires Transporte Carga 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Buga Act Comerciales o Ser  9%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Buga Venta Herram y Muebles 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Buga Vta de Bienes y Serv 5.3%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cajica Act Industriales 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cajica Act Sector Financiero 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cajica Act Servicios gles 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cajica Alojamiento 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cajica Servicios generales 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cajica Transporte de Carga 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Calarca Act Ind o Construccion5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Calarca Otras act de servicio 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Calarca Pdcts Farmaceuticos 2.5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Calarca Transporte de Carga 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Caldas Serv Trans de Carga 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Caldas Transporte Carga 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cali Act Comerciales 7.7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cali Act comerical 7.7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cali Act de salud 6.6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cali Act Financieras 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cali Act Industriales 6.6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cali Construc Obras Ing Civil 3.3</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cali Lotes Especiales 3%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cali Residencia Alojamiento 8.8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cali Transporte de Carga 3.3 %°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Caloto Transporte Carga 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Caparrapi Act Cciales General 9%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Caparrapi Act Servici General 10%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Caparrapi Transporte Carga 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Caucasia Transporte Carga 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cgena Demas Act de Serv 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cgena Todas Act Comerciales 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cgena Vta de Bien y Serv  3.5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cgena Vta de Bien y Serv 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cgena Vta de Bien y Serv 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cgena Vta de Bien y Serv 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cgena Vta de Bien y Serv 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Chinchina Transporte Carga 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Chincina Act Fnras y Ser 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cienaga Fletes y Acarreos 9%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cliente Buenavent Transp carga7%º</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Copacabana Transporte Carga 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Copacabana Vta de Bien y Serv 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cota Act Comerciales 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cota Act Servicios 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cota Comunicación y Educa 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cota Demas actv servicio 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cota Venta Bien y Serv 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cucunuba Transporte Carga 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cucunuba Transporte de Carga 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Cucuta Transporte de Carga 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Curiti Transporte Carga 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Dagua Acti de Servicios 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Dagua Acti Industriales 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Demas actv comerciales 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Dibulla Serv Transp de carga 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Dibulla Transporte Carga 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Dosquebradas Transporte Carga 9%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Dui Alojamiento Hospedaje 8.5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Dui Empresas  Rurales Ind 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Dui Empresas  Urbano Ind 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Dui Predios 5.5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Duitama Actv Servicios 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Duitama Transporte Carga 5.5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Duitma Transporte de Carga 6.1%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA El Paso Transporte Carga 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA El Zulia Transporte Carga 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Elpaso Transporte de Carga 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Funza Transporte Carga 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Galapa  Demas Activ Serv 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Galapa Demas Act Indus 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Galapa Demas Cciales 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Girardot Transporte Carga 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Girardota Transporte Carga 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Girón Act de Serv 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Guacheta Transporte Carga 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Guaduas Demas Act Comerciales 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Guaduas Transporte Carga 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Guaduas Transporte Carga 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Guaduas Vta Bien y Serv  8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Guaduas Vta Bien y Serv 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Guaduas Vta y Demas 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Guasca Transporte Carga 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Guasca Vta Bien y Serv  5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Guayab Act Servicios 9%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Inza Serv generales 1.5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Ituango Act Construccion 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Ituango Act Industriales 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Ituango Act serv generales 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Ituango Act Servicios 9%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Ituango Act transporte 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Ituango Instalaciones 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Jamundi Transp Flete Acarreo 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Jamundi Transporte Carga 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Landazuri Transporte Carga 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA LaPlata Alojamiento y Deporte 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA LaPlata Alquiler Maq y Eq 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA LaPlata Comercio y Sevicios 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA LaPlata Comidas y Recreacion8.5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA LaPlata Transporte Carga 9%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Los Santos Serv trans carga 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Luruaco Trans , Ser e Ind 4.5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Magangue Transporte Carga 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Manizales Transporte Carga 3,7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Medellin Bienes y Servicios 2%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Medellin Serv empleo y edu 2%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Medellin Vta de Bien y Serv 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Medellin Vta de Bien y Serv 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Mongua Bien y Serv 3%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Mongua Transporte Carga 3%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Mongua Transporte Carga 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Montelibano Transporte Carga 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Monteria Actividad Industrial 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Monteria Actividad Servicio 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Monteria ColaboraConcesion 2.5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Monteria ColaboraConcesion 3.5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Monteria Comercio Combustible 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Monteria Compras y Serv 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Monteria Demas Act de Serv  7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Mosquera Act Indu y Serv 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Mosquera Transporte Carga 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Mtebell Actividad  de Serv 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Mtebell Sector Financiero 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Nobsa Comer y Servicios 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Nobsa Transporte Carga 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Nobsa Transporte en Gral 7.5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Orito Act. Ccles RegCm GrCont10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Orito Demas Activ Serv 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA OritoServ VigTerc Aseo Mtto 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Ortega Transporte Carga 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Paipa Transporte Carga 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pajrito Acti Bcos Comerciales 3%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pajrito Activ de Serv 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pajrito Otras Activ Ciales  4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pajrito Parque y Taller Vehic 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Palmira Trans de Carga 8 %°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Palmira Transporte Carga 7.5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pasto Serv de Trans Gral  6 %°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA PDC Ser Comer e Industriales 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pereira Act Comerciales 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pereira Act Comerciales 6.1%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pereira Act Comerciales 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pereira Act Servicios 6.8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pereira Industriales y Fros 5.4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pereira Pan o Café Terias 8.4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pereira Prop Raiz y Alojam 9%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pereira Serv Herra Metal 3.9%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pereira Serv Medico y Salud 5.9%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pereira Serv trans Carga 10 %°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Piedecuesta Transporte Carga 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Piedecuesta Transporte Carga 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Planeta Rica Transporte Carga 10%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Plta Rica Fletes y Acarreos 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA PNare Vta Bien y Serv 10 %°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA PNare Vta Bien y Serv 5 %°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA PNare Vta Bien y Serv 7 %°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pt Tejad Trans Carga Carre 3.5 %°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pto Asis Alq Equip transp 5 %°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pto Berrio Transporte Carga 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA PTO COL Alcohol y Tabaco 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA PTO COL Alojamiento Expend 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA PTO COL Demas Act IND 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pto Colombia "NO UTILIZAR"</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pto Colombia Demas Act Ser 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pto Libertador Transp Carga 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pto Tejada Serv 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA PtoBerri Transporte de Carga 8 %°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Ptoclbia Vta combus 4.5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA PTOCOL Act Financieras 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA PtoColmb Trans de Carga 4.5 %°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA PTOLibertador Act Industrial 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA PTONARE Entretenimiento 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA PTOTEJADA Ind Comer Serv 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Pz D Rio Serv Transp Carga  6 %°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Quibdo Otras Activ de Serv 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Quibo Act Comerciales 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Rionegro Transporte Carga 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sabana de Torres Trans Carga 6 %</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA SabanaGrande Comercio 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA SabanaGrande Ind y Servi 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA SabanaGrande Servicios 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sabaneta Act Ind y Comer 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sabngde Servicio Transp Carga 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Saldaña Act Comerciales 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Saldaña Act Fiancieras 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Saldaña Actividades Serv 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Saldaña Actividades Servicios 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Saldaña Actividades Servicios 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Saldaña SuperMcdos Alimentos 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Saldaña Transporte Carga 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Saldaña Transporte Carga 8.4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA San Gil Transporte Carga 3%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA San Luis Fletes y Acarreos 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Santamarta Act Comerciales 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Santamarta Honorarios 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Santamarta Transp carga 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Santamarta Venta de bienes 2%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sibate Serv de Transp Carga  8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sibate Serv Trans 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sibate Transporte Carga 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Since Alq Equipo Transp 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sincelejo Act Comerciales 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sincelejo Act Industriales 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA SJT Act Comerciales 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA SJT Servicios 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA SJT Trans y Servicios 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Soacha Act Servicios 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Soacha Actv Ciale y Serv 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Soacha Gnrcion Energia Ele 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Soacha Transpor Comer e Indu 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Soacha Transporte Carga 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Socha Transporte Carga 3%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sogmoso Act Comerciales 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sogmoso Act Servicios 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sogmoso act. Industrial 6 %</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sogmoso Entidades Salud 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sogmoso otra act. Industrial 5 %</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sogmoso Tran Terres de Carga 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sogmoso Vehiculos y Viajes 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Soledad Exp Alcohol y Tabaco 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Soledad Otras Activ de Serv 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Soledad Otras Activ de Serv 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Soledad Serv Transporte 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Soledad Vta Bien y Serv 7.5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sonson Act Ciales y de Serv 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sonson Act Industrial 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sonson Actividad Indtrial 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sonson Pequeños Negocios 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA SPB Act Comer y otras 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA SPB Act Servicios 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA STAMARTA Act Consultoria 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA STAMARTA Act Servicios 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA STAMARTA Edu, Recrea y Aloja 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA STAMARTA Transpor 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA StgoTolu Transporte de Carga 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sugerida Bucaramanga Trans 6 %</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sugerida Cali Trans 3,3 %</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sugerida Guaduas Trans 8 %</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sugerida Luruaco Trans 4,5 %</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sugerida Monteria Trans 7 %</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sugerida Piedecueta Trans 5 %</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sugerida Transporte Carga 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sutatausa Serv con Transp 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Sutatausa Transporte Carga 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Tausa Transporte Carga 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Tlviejo Act servicios 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA TOC Act Ser  e Indust 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Tocancipa Transporte Carga 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA ToluVjo Act Comerciales 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA ToluVjo Act Industriales 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA ToluVjo Transp Carga Carrete 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Tulua Act Finras y Servicios 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Tulua Acti Comerciales 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Tulua Transporte de Carga 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Tuta Act Comer e Industriales 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Tuta Act Servi , Comer e Ind 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Tuta Servicio de Transporte 3%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Tuta Transporte Carga 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Ubate Servicio Transporte 3.75%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Ubate Transporte Carga 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Valledupar Trans de carga 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Valledupar Transporte Carga 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA VDG Act Comerciales 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA VDG Act Financieras y Alojam 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA VDG Act Servicios 4.5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Vdupar Act Servicios 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Vdupar Venta de Bienes 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Vdupar Vta de Bien y Serv 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA VillaMaria Fletes y Acarreos 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Villavcio Act Serv y Comerc 4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Villavcio Trans de Carga 2%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA VLD  Demas Act Comerciales 6.4%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Vlledelgmz Demas Activ Comer 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Vlledelgmz Vta de Bien y Serv 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Yarumal Act Indus y Construc 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Yarumal Transporte Carga 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Yarumal Transporte Carga 9%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA YB Fabrica Maq y Equipo U.E 6.5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Yumbo Compra de Bienes 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Yumbo Mantenimiento y Repar 8%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Yumbo Trans carga y Pasajeros 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Yumbo Transporte Carga 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Yumbo Vta de Bien y Serv 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Yumbo Vta de Bien y Serv 5%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Yumbo Vta de Bien y Serv 6%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA Zipaquira Transporte Carga 7%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA  Cali Act Servicios 10%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteICA  Cali Act Servicios 11%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteIva del  0%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteIva Reg Simplificado  Compras 2,4%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteIva Reg Simplificado Servicios 0,75%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteIva Regimen Común Compras  5%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteIva Regimen Común Compras 16%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteIva Regimen Común servicios  5%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteIva Regimen Común Servicios 16%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>RteIva Serv No Resid o Sin Domicilio 16%</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>SAP_Simulation_Result__</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Scan/Other</key>
+			<val>Mail/Other</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Schedule variance</key>
+			<val>Schedule mismatch</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Set aside</key>
+			<val>Set aside</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Terms default</key>
+			<val>default</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Tipo de Cambio</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Tipo Retención</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>To approve</key>
+			<val>To approve</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>To pay</key>
+			<val>Pending payment</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>To post</key>
+			<val>To post</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>To verify</key>
+			<val>To verify</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>TopPaneWarning</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Unreadable invoice / bad quality scan</key>
+			<val>Invoice unreadable / Poor scan quality</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>User not found</key>
+			<val>User not found</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Vendor invoice</key>
+			<val>Vendor Invoice</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Vendor portal</key>
+			<val>Portal</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>VI RteICA San Gil Transporte Carga 3%°</key>
+			<val />
+		</TranslateItem>
+		<TranslateItem>
+			<key>Waiting for credit memo</key>
+			<val>Waiting for credit memo</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Waiting for goods receipt</key>
+			<val>Waiting for goods receipt</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Wrong analytical assignment</key>
+			<val>Wrong analytical assignment</val>
+		</TranslateItem>
+		<TranslateItem>
+			<key>Wrong workflow: not in charge</key>
+			<val>Wrong workflow: not in charge</val>
+		</TranslateItem>
+	</items>
+</TranslateCollection>

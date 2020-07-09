@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<summary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" display="NAV - Esker Tools" version="2">
+	<innerList>
+		<items type="PROCESS">
+			<innerList>
+				<item displayName="Z_ChangeProcessOwner" innerName="Z_ChangeProcessOwner" displayGroup="Forms" innerGroup="CD" identifier="FNFO455CC7E" originalIdentifier="" zipEntry="Z_ChangeProcessOwner.zip" />
+				<item displayName="Z_ResubmittingProcess" innerName="Z_ResubmittingProcess" displayGroup="Forms" innerGroup="CD" identifier="REPG455CC90" originalIdentifier="" zipEntry="Z_ResubmittingProcess.zip" />
+				<item displayName="Z_SetCompaniesCurrencies" innerName="Z_SetCompaniesCurrencies" displayGroup="Forms" innerGroup="CD" identifier="GGBW455CCA0" originalIdentifier="" zipEntry="Z_SetCompaniesCurrencies.zip" />
+			</innerList>
+		</items>
+	</innerList>
+</summary>

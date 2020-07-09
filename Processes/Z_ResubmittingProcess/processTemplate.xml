@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<process accountid="100034178" builtin="0" builtinversion="0" carriesapplicationversion="0" creationdatetime="2020-07-09 16:13:28" deleted="0" eskerapplication="" global="0" id="REPG455CC90" keepcustomization="0" keepfieldsonly="0" keepfieldsproperties="0" keepnewcontroloptions="0" migrationversion="4" name="Z_ResubmittingProcess" needvalidation="0" ootofilter="" ootoversion="1" originalProcessID="GGBWB8F481" ownerid="cn=.su@100034178,ou=NAV_DEV,ou=Nahuel Venencio,ou=05286512,ou=ESK,s=eoo" ownerpb="OnDemand AddressBook" public="1" pushnotification="0" reuseengine="0" sprintversion="" transportname="CustomData" upgradable="0" userid="0" version="1" visibility="0">
+  <properties>
+    <gdr>
+      <FinalizationScriptAllowRetry>
+      </FinalizationScriptAllowRetry>
+      <FinalizationScript>
+        <!--finalizationscript.js-->
+      </FinalizationScript>
+      <ValidationScriptAllowRetry>
+      </ValidationScriptAllowRetry>
+      <ValidationScript>
+        <!--validationscript.js-->
+      </ValidationScript>
+      <AllowTagCoverPages>true</AllowTagCoverPages>
+      <AllowTagNewDocuments>true</AllowTagNewDocuments>
+      <AllowTagAttachments>true</AllowTagAttachments>
+      <ExtractionScriptAllowRetry>
+      </ExtractionScriptAllowRetry>
+      <ExtractionScript>
+        <!--extractionscript.js-->
+      </ExtractionScript>
+      <ExtractionScriptRunOnOCRFailed>
+      </ExtractionScriptRunOnOCRFailed>
+      <AllowRemovePages>true</AllowRemovePages>
+      <AllowSwapPages>true</AllowSwapPages>
+      <PostProcessingScriptAllowRetry>
+      </PostProcessingScriptAllowRetry>
+      <PostProcessingScript>
+        <!--postprocessingscript.js-->
+      </PostProcessingScript>
+    </gdr>
+    <lg>
+      <!--*.xml-->
+    </lg>
+    <ocr>
+      <trade-off>accurate</trade-off>
+      <image-binarization>no</image-binarization>
+      <image-draft-fax>no</image-draft-fax>
+      <image-despeckle>no</image-despeckle>
+      <allowed-language>0</allowed-language>
+      <image-resolution-enhancement>auto</image-resolution-enhancement>
+      <pdf-processing>no-ocr</pdf-processing>
+      <ocr_engine>Nuance190</ocr_engine>
+      <ocrpagestoprocess>
+      </ocrpagestoprocess>
+      <extractionAdditionalOptions>
+      </extractionAdditionalOptions>
+    </ocr>
+    <process>
+      <Tags>AP VIP</Tags>
+      <flowtype>processing</flowtype>
+      <ocrpreset>custom</ocrpreset>
+      <homepagelabel>Z_ResubmittingProcess</homepagelabel>
+      <enableflexibleauditing>
+      </enableflexibleauditing>
+      <enableflexibleediting>
+      </enableflexibleediting>
+      <enableflexibleteaching>
+      </enableflexibleteaching>
+      <disableocr>yes</disableocr>
+      <instanciable>1</instanciable>
+      <disableautolearning>true</disableautolearning>
+      <backgroundprocessingthreshold>
+      </backgroundprocessingthreshold>
+      <EnablePreviewPrecomputation>
+      </EnablePreviewPrecomputation>
+      <enablerounddecimal>true</enablerounddecimal>
+      <pdfNormalizeFilter>
+      </pdfNormalizeFilter>
+      <archiveDuration>0</archiveDuration>
+      <FailoverOnConversionError>
+      </FailoverOnConversionError>
+      <ocrpagestoprocess>0</ocrpagestoprocess>
+      <UseActionNameWithScriptApproval>true</UseActionNameWithScriptApproval>
+      <displayWidth>
+      </displayWidth>
+      <AllowUploadAttachment>0</AllowUploadAttachment>
+      <AllowUploadReferenceDocument>0</AllowUploadReferenceDocument>
+      <ByPassComputedForSmartColumn>
+      </ByPassComputedForSmartColumn>
+      <UseCultureFormat>true</UseCultureFormat>
+      <AllowRetryExtractCD>true</AllowRetryExtractCD>
+      <TransportName>CustomData</TransportName>
+      <LayoutVersion>1.0</LayoutVersion>
+      <StatusOnExtractCDLastTry>-1</StatusOnExtractCDLastTry>
+      <printToProcess>
+      </printToProcess>
+    </process>
+    <ui>
+      <CustomScriptDebug>false</CustomScriptDebug>
+      <CustomScriptReadonly>false</CustomScriptReadonly>
+      <CustomScript>
+        <!--customscript.js-->
+      </CustomScript>
+      <layout>
+        <!--layout.js-->
+      </layout>
+    </ui>
+  </properties>
+  <field deleted="0" format="" guid="GGBWC89671" id="GXRP455CC91" label="Errors" length="50" name="Errors__" originalProcessID="GGBWB8F481" precision="0" processid="REPG455CC90" submitable="1" type="STR">
+    <properties>
+      <db>
+        <alias>AGXRP455CC91</alias>
+        <noxml>1</noxml>
+        <fullname>/job/processfields/Errors__</fullname>
+        <defaultvalue>
+        </defaultvalue>
+        <RecordLastWrite>2016-12-01 09:34:58</RecordLastWrite>
+      </db>
+      <extraction>
+        <extractionData>{"method":"none","pageOrigin":"first","area":"","after":"","before":"","valueToSearch":"","useRegexpMode":false,"matchCase":false,"replacements":[]}</extractionData>
+      </extraction>
+      <extrainfo>
+        <Label>Errors</Label>
+        <Alias>AGXRP455CC91</Alias>
+        <ProcessFieldVersion vartype="INT">1</ProcessFieldVersion>
+      </extrainfo>
+      <gdr>
+        <VarType>Area</VarType>
+        <DisableAutolearn>1</DisableAutolearn>
+      </gdr>
+      <help>
+        <helpData>{"helpText":"","helpURL":"","helpFormat":"HTML Format"}</helpData>
+      </help>
+      <ui>
+        <_type>String</_type>
+        <automatic>true</automatic>
+      </ui>
+    </properties>
+  </field>
+  <field deleted="0" format="" guid="PHQG33B4C02" id="NRVY455CC92" label="_ShortText" length="50" name="InfoField__" originalProcessID="GGBWB8F481" precision="0" processid="REPG455CC90" submitable="1" type="STR">
+    <properties>
+      <db>
+        <alias>ANRVY455CC92</alias>
+        <noxml>1</noxml>
+        <fullname>/job/processfields/InfoField__</fullname>
+        <defaultvalue>
+        </defaultvalue>
+        <RecordLastWrite>2019-11-22 12:16:07</RecordLastWrite>
+      </db>
+      <extraction>
+        <extractionData>{"method":"none","pageOrigin":"first","area":"","after":"","before":"","valueToSearch":"","useRegexpMode":false,"matchCase":false,"replacements":[]}</extractionData>
+      </extraction>
+      <extrainfo>
+        <Label>_ShortText</Label>
+        <Alias>ANRVY455CC92</Alias>
+        <ProcessFieldVersion vartype="INT">1</ProcessFieldVersion>
+      </extrainfo>
+      <gdr>
+        <VarType>Area</VarType>
+        <DisableAutolearn>1</DisableAutolearn>
+      </gdr>
+      <help>
+        <helpData>{"helpText":"En caso de requerir más detalles sobre uno de los documentos\npor favor informe el identificador del mismo al equipo de soporte","helpURL":"","helpFormat":"HTML Format"}</helpData>
+      </help>
+      <ui>
+        <_type>String</_type>
+        <automatic>true</automatic>
+      </ui>
+    </properties>
+  </field>
+  <field deleted="0" format="" guid="VSCXC89670" id="STMW455CC93" label="Resubmitted Invoices" length="50" name="ResubmittedInvoices__" originalProcessID="GGBWB8F481" precision="0" processid="REPG455CC90" submitable="1" type="STR">
+    <properties>
+      <db>
+        <alias>ASTMW455CC93</alias>
+        <noxml>1</noxml>
+        <fullname>/job/processfields/ResubmittedInvoices__</fullname>
+        <defaultvalue>
+        </defaultvalue>
+        <RecordLastWrite>2016-12-01 09:34:58</RecordLastWrite>
+      </db>
+      <extraction>
+        <extractionData>{"method":"none","pageOrigin":"first","area":"","after":"","before":"","valueToSearch":"","useRegexpMode":false,"matchCase":false,"replacements":[]}</extractionData>
+      </extraction>
+      <extrainfo>
+        <Label>Resubmitted Invoices</Label>
+        <Alias>ASTMW455CC93</Alias>
+        <ProcessFieldVersion vartype="INT">1</ProcessFieldVersion>
+      </extrainfo>
+      <gdr>
+        <VarType>Area</VarType>
+        <DisableAutolearn>1</DisableAutolearn>
+      </gdr>
+      <help>
+        <helpData>{"helpText":"","helpURL":"","helpFormat":"HTML Format"}</helpData>
+      </help>
+      <ui>
+        <_type>String</_type>
+        <automatic>true</automatic>
+      </ui>
+    </properties>
+  </field>
+  <field deleted="0" format="" guid="AYLNC8966E" id="CYSY455CC94" label="Total Invoices selected" length="50" name="SelectedInvoices__" originalProcessID="GGBWB8F481" precision="0" processid="REPG455CC90" submitable="1" type="STR">
+    <properties>
+      <db>
+        <alias>ACYSY455CC94</alias>
+        <noxml>1</noxml>
+        <fullname>/job/processfields/SelectedInvoices__</fullname>
+        <defaultvalue>
+        </defaultvalue>
+        <RecordLastWrite>2016-12-01 09:22:17</RecordLastWrite>
+      </db>
+      <extraction>
+        <extractionData>{"method":"none","pageOrigin":"first","area":"","after":"","before":"","valueToSearch":"","useRegexpMode":false,"matchCase":false,"replacements":[]}</extractionData>
+      </extraction>
+      <extrainfo>
+        <Label>Total Invoices selected</Label>
+        <Alias>ACYSY455CC94</Alias>
+        <ProcessFieldVersion vartype="INT">1</ProcessFieldVersion>
+      </extrainfo>
+      <gdr>
+        <VarType>Area</VarType>
+        <DisableAutolearn>1</DisableAutolearn>
+      </gdr>
+      <help>
+        <helpData>{"helpText":"","helpURL":"","helpFormat":"HTML Format"}</helpData>
+      </help>
+      <ui>
+        <_type>String</_type>
+        <automatic>true</automatic>
+      </ui>
+    </properties>
+  </field>
+  <field deleted="0" format="" guid="FIRCC8966F" id="YCQP455CC95" label="Skipped Invoices" length="50" name="SkippedInvoices__" originalProcessID="GGBWB8F481" precision="0" processid="REPG455CC90" submitable="1" type="STR">
+    <properties>
+      <db>
+        <alias>AYCQP455CC95</alias>
+        <noxml>1</noxml>
+        <fullname>/job/processfields/SkippedInvoices__</fullname>
+        <defaultvalue>
+        </defaultvalue>
+        <RecordLastWrite>2016-12-01 09:34:57</RecordLastWrite>
+      </db>
+      <extraction>
+        <extractionData>{"method":"none","pageOrigin":"first","area":"","after":"","before":"","valueToSearch":"","useRegexpMode":false,"matchCase":false,"replacements":[]}</extractionData>
+      </extraction>
+      <extrainfo>
+        <Label>Skipped Invoices</Label>
+        <Alias>AYCQP455CC95</Alias>
+        <ProcessFieldVersion vartype="INT">1</ProcessFieldVersion>
+      </extrainfo>
+      <gdr>
+        <VarType>Area</VarType>
+        <DisableAutolearn>1</DisableAutolearn>
+      </gdr>
+      <help>
+        <helpData>{"helpText":"","helpURL":"","helpFormat":"HTML Format"}</helpData>
+      </help>
+      <ui>
+        <_type>String</_type>
+        <automatic>true</automatic>
+      </ui>
+    </properties>
+  </field>
+  <field deleted="0" format="" guid="PHQG23B452B" id="EVIK455CC96" label="_ErrorMessage" length="32766" name="Z_ErrorMessage__" originalProcessID="GGBWB8F481" precision="0" processid="REPG455CC90" submitable="1" type="STR">
+    <properties>
+      <db>
+        <alias>AEVIK455CC96</alias>
+        <noxml>1</noxml>
+        <fullname>/job/processfields/Z_ErrorMessage__</fullname>
+        <defaultvalue>
+        </defaultvalue>
+        <RecordLastWrite>2019-03-26 08:37:59</RecordLastWrite>
+      </db>
+      <extraction>
+        <extractionData>{"method":"none","pageOrigin":"first","area":"","after":"","before":"","valueToSearch":"","useRegexpMode":false,"matchCase":false,"replacements":[]}</extractionData>
+      </extraction>
+      <extrainfo>
+        <Label>_ErrorMessage</Label>
+        <Alias>AEVIK455CC96</Alias>
+        <ProcessFieldVersion vartype="INT">1</ProcessFieldVersion>
+      </extrainfo>
+      <gdr>
+        <DisableAutolearn>1</DisableAutolearn>
+      </gdr>
+      <help>
+        <helpData>{"helpText":"","helpURL":"","helpFormat":"HTML Format"}</helpData>
+      </help>
+      <ui>
+        <_type>String</_type>
+        <automatic>true</automatic>
+      </ui>
+    </properties>
+  </field>
+  <field deleted="1" format="" guid="PHQG1324A2D" id="EFFM455CC97" label="Comentario" length="32766" name="Comentario__" originalProcessID="GGBWB8F481" precision="0" processid="REPG455CC90" submitable="1" type="STR">
+    <properties>
+      <db>
+        <alias>AEFFM455CC97</alias>
+        <noxml>1</noxml>
+        <fullname>/job/processfields/Comentario__</fullname>
+        <defaultvalue>
+        </defaultvalue>
+        <RecordLastWrite>2018-05-04 12:55:40</RecordLastWrite>
+      </db>
+      <extraction>
+        <extractionData>{"method":"none","pageOrigin":"first","area":"","after":"","before":"","valueToSearch":"","useRegexpMode":false,"matchCase":false,"replacements":[]}</extractionData>
+      </extraction>
+      <extrainfo>
+        <Label>Comentario</Label>
+        <Alias>AEFFM455CC97</Alias>
+        <ProcessFieldVersion vartype="INT">1</ProcessFieldVersion>
+      </extrainfo>
+      <gdr>
+        <DisableAutolearn>1</DisableAutolearn>
+      </gdr>
+      <help>
+        <helpData>{"helpText":"","helpURL":"","helpFormat":"HTML Format"}</helpData>
+      </help>
+      <ui>
+        <_type>String</_type>
+        <automatic>true</automatic>
+      </ui>
+    </properties>
+  </field>
+  <field deleted="1" format="" guid="DUXWC89715" id="ZNIM455CC98" label="Text" length="50" name="MessageTitle__" originalProcessID="GGBWB8F481" precision="0" processid="REPG455CC90" submitable="1" type="STR">
+    <properties>
+      <db>
+        <alias>AZNIM455CC98</alias>
+        <noxml>1</noxml>
+        <fullname>/job/processfields/MessageTitle__</fullname>
+        <defaultvalue>
+        </defaultvalue>
+        <RecordLastWrite>2016-12-02 14:43:54</RecordLastWrite>
+      </db>
+      <extraction>
+        <extractionData>{"method":"none","pageOrigin":"first","area":"","after":"","before":"","valueToSearch":"","useRegexpMode":false,"matchCase":false,"replacements":[]}</extractionData>
+      </extraction>
+      <extrainfo>
+        <Label>Text</Label>
+        <Alias>AZNIM455CC98</Alias>
+        <ProcessFieldVersion vartype="INT">1</ProcessFieldVersion>
+      </extrainfo>
+      <gdr>
+        <VarType>Area</VarType>
+        <DisableAutolearn>1</DisableAutolearn>
+      </gdr>
+      <help>
+        <helpData>{"helpText":"","helpURL":"","helpFormat":"HTML Format"}</helpData>
+      </help>
+      <ui>
+        <_type>String</_type>
+        <automatic>true</automatic>
+      </ui>
+    </properties>
+  </field>
+  <field deleted="1" format="" guid="ZVSRC89713" id="KKAS455CC99" label="Multiline text" length="65535" name="Message__" originalProcessID="GGBWB8F481" precision="0" processid="REPG455CC90" submitable="1" type="STR">
+    <properties>
+      <db>
+        <fullname>/job/processfields/KKAS455CC99</fullname>
+        <defaultvalue>
+        </defaultvalue>
+        <RecordLastWrite>2018-05-04 12:55:40</RecordLastWrite>
+      </db>
+      <extraction>
+        <extractionData>{"method":"none","pageOrigin":"first","area":"","after":"","before":"","valueToSearch":"","useRegexpMode":false,"matchCase":false,"replacements":[]}</extractionData>
+      </extraction>
+      <extrainfo>
+        <ProcessFieldVersion vartype="INT">1</ProcessFieldVersion>
+      </extrainfo>
+      <field>
+        <isLongText>true</isLongText>
+      </field>
+      <gdr>
+        <DisableAutolearn>1</DisableAutolearn>
+      </gdr>
+      <help>
+        <helpData>{"helpText":"","helpURL":"","helpFormat":"HTML Format"}</helpData>
+      </help>
+      <ui>
+        <_type>String</_type>
+        <automatic>true</automatic>
+      </ui>
+    </properties>
+  </field>
+  <type id="SWCS7" name="CD">
+  </type>
+</process>

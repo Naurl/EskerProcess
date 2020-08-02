@@ -1,23 +1,21 @@
-//Validation Change Process Owner
-// Add this lib in Include: Sys/Sys_Helpers_Attach
-
 ///#GLOBALS Lib Sys
-
 /*
+Validation script Z_ChangeProcessOwner
+
+Add this lib in Include Libriries: Sys/Sys_Helpers_Attach
+
 ### ########### ###
 ### INFORMATION ###
 ### ########### ###
 
--Important: Set the user language in "English" so that the name of the process arrives 
-correctly in the csv before executing the scheduled report.
+-Important: The language set in the header in the csv file is not important, however the same order of the column header is needed.
 
 -Columns of CSV received: "Long identifier","Owner","Process"
 
 - Description of the process: 
   Obtain the Long Identifiers of the process from the CSV file of 
 the report and change the respective owner of each one by the owner specified in the "Z_NewOwner__" field.
-  If it is desired to change an old owner only, it is specified in the field "Z_OldOwnerIdentifier__", 
-and only the records that have this old owner will be modified.
+  If you want only change an old owner, you could specify in the "Z_OldOwnerIdentifier__" field, and only the records that have this old owner will be modified.
   If the field "Z_OldOwnerIdentifier__" is empty, all the records of the CSV will be modified.
 */
 
@@ -25,120 +23,130 @@ and only the records that have this old owner will be modified.
 //### FUNCTIONS ###
 //### ######### ###
 
-var ReadFromCSV =
+//Get the first file attached with the extension .csv
+function GetFirstCSVAttached()
 {
-    hasHeader: true,
-    
-    getRegisters: function()
-	{
-
-        function GetCSVAttach()
+    var xmlIdx = 0;
+    for (var i=0; i< Attach.GetNbAttach(); i++)
+    {
+        if (Attach.GetExtension(i).toUpperCase() == ".CSV")
         {
-            var xmlIdx = 0;
-            for (var i=0; i< Attach.GetNbAttach(); i++)
-            {
-                if (Attach.GetExtension(i).toUpperCase() == ".CSV")
-                {
-                    xmlIdx = i;
-                    Log.Info(">> CSV attachment found " + xmlIdx);
-                    break;
-                }
-            }
-
-            return xmlIdx;
+            xmlIdx = i;
+            Log.Info(">> CSV attachment found " + xmlIdx);
+            break;
         }
-
-		var reader = Sys.Helpers.Attach.getReader(GetCSVAttach());
-        var line;
-
-		// Skip first line if CSV has header
-		if (ReadFromCSV.hasHeader)
-		{
-            Log.Info("Saltea el header.");
-            changeProcessOwnerGlobalParameters.ProcessMessagesInformation += "\n Saltea el header.";
-			reader.getLine();
-		}
-        var lines = [];
-		while ((line = reader.getLine()) != null)
-		{
-			lines.push(ReadFromCSV.extractRegisterFromLine(line));
-        }
-		return lines;
-    },
-    
-    extractRegisterFromLine: function(line)
-	{
-	    line = line.replace(/"/g, "");
-        var splitResult = line.split(",");
-        return splitResult;
-	},
-};
-
-function BuildNewOwner(OldOwner)
-{
-    //Ejemplo de cadena a modificar cn=nvenencio.prd@request.com.ar,ou=PROD,ou=00362710,ou=ESK,s=eoo
-    var processOwnerRegExp = changeProcessOwnerGlobalParameters.processOwnerRegExp;
-    var processOwnerParts = processOwnerRegExp.exec(OldOwner);
-
-    if(processOwnerParts)
-    {       
-        var NewIdentifierVendor = Data.GetValue("Z_NewOwner__");//"30710857950";
-        var NewOwner = OldOwner.replace(processOwnerRegExp,"cn=" + NewIdentifierVendor);
-        
-        changeProcessOwnerGlobalParameters.ProcessMessagesInformation += "\n OldOwner: " + OldOwner + " --- NewOwner: " + NewOwner;
-    
-        return NewOwner;
     }
-    return null;
+
+    return xmlIdx;
 }
 
-function BuildNewOwnerToPortal(OldOwner)
+function ReadFromCSV(csvAttached)
 {
-    //Ejemplo de cadena a modificar cn=1884675104$30582981341,ou=Vendors list,ou=QA,ou=00362710,ou=ESK,s=eoo
-    //Exprecion regular utilizada para modificarlo (cn=[0-9]+)(\$[A-Za-z0-9.@_-]+)
-    var vendorPortalOwnerRegExp = changeProcessOwnerGlobalParameters.vendorPortalOwnerRegExp;
-    var vendorPortalOwnerParts = vendorPortalOwnerRegExp.exec(OldOwner);
+    var readFromCSV =
+    {
+        hasHeader: true,
+        
+        getRegisters: function()
+        {
+            var reader = Sys.Helpers.Attach.getReader(csvAttached);
+            var line;
+
+            // Skip first line if CSV has header
+            if (ReadFromCSV.hasHeader)
+            {
+                Log.Info("Saltea el header.");
+                changeProcessOwnerGlobalParameters.ProcessMessagesInformation += "\n Saltea el header.";
+                reader.getLine();
+            }
+            var lines = [];
+            while ((line = reader.getLine()) != null)
+            {
+                lines.push(ReadFromCSV.extractRegisterFromLine(line));
+            }
+            return lines;
+        },
+        
+        extractRegisterFromLine: function(line)
+        {
+            line = line.replace(/"/g, "");
+            var splitResult = line.split(",");
+            return splitResult;
+        },
+    };
+
+    return readFromCSV;
+}
+
+function BuildNewOwner(oldOwner)
+{
+    //Example of string to modify cn=nvenencio.prd@request.com.ar,ou=PROD,ou=00362710,ou=ESK,s=eoo
+    var processOwnerRegExp = changeProcessOwnerGlobalParameters.processOwnerRegExp;
+    var processOwnerParts = processOwnerRegExp.exec(oldOwner);
     
+    var newOwner = null;
+    
+    if(processOwnerParts)
+    {       
+        var newIdentifierVendor = Data.GetValue("Z_NewOwner__");//Examples: "customeruser.qa@customerdomain.com" -- "test_ap_qa@request.com.ar"
+        newOwner = oldOwner.replace(processOwnerRegExp,"cn=" + newIdentifierVendor);
+        
+        changeProcessOwnerGlobalParameters.ProcessMessagesInformation += "\n OldOwner: " + oldOwner + " --- NewOwner: " + newOwner;
+    }
+
+    return newOwner;
+}
+
+function BuildNewOwnerToPortal(oldOwner)
+{
+    //Example of string to modify cn=1884675104$30582981341,ou=Vendors list,ou=QA,ou=00362710,ou=ESK,s=eoo
+    var vendorPortalOwnerRegExp = changeProcessOwnerGlobalParameters.vendorPortalOwnerRegExp;
+    var vendorPortalOwnerParts = vendorPortalOwnerRegExp.exec(oldOwner);
+    
+    var newVendorPortalOwner = null;
+
     if(vendorPortalOwnerParts)
     {
         var vanderPortalAccountID = vendorPortalOwnerParts[1];
-        var newVendorPortalOwner = Data.GetValue("Z_NewOwner__");//"Excample: 30710857950";
-        newVendorPortalOwner = OldOwner.replace(vendorPortalOwnerParts, vanderPortalAccountID + "$" + newVendorPortalOwner);
+        newVendorPortalOwner = Data.GetValue("Z_NewOwner__");//Examples: "30710857950" -- "lanacionsa"
+        newVendorPortalOwner = oldOwner.replace(vendorPortalOwnerParts, vanderPortalAccountID + "$" + newVendorPortalOwner);
 
-        changeProcessOwnerGlobalParameters.ProcessMessagesInformation += "\n OldOwner: " + OldOwner + " --- NewOwner: " + newVendorPortalOwner;
-        return newVendorPortalOwner;
+        changeProcessOwnerGlobalParameters.ProcessMessagesInformation += "\n OldOwner: " + oldOwner + " --- NewOwner: " + newVendorPortalOwner;
     }
     
-    return null;
+    return newVendorPortalOwner;
 }
 
 function BuildNewOwnerChangeEnvironment()
 {
-    // Ejemplo de cadena a armar cn=nvenencio.prd@request.com.ar,ou=PROD,ou=00362710,ou=ESK,s=eoo
-    //User.accountId LA NACION: QAS = 1884675104; DEV = 1881154991; PRD = 1884675149//  identificador igual en todas las cuentas =00362710
+    //Example of string to modify cn=nvenencio.prd@request.com.ar,ou=PROD,ou=00362710,ou=ESK,s=eoo
+    //User.accountId LA NACION: QAS = 1884675104; DEV = 1881154991; PRD = 1884675149//  The identifier "00362710" is equal in all of environment of our customer "LA NACION"
+    var newOrnderId = null;
 
     if(Data.GetValue("Z_NewOwner__") && Data.GetValue("Z_NewOwner__") != "" && Data.GetValue("Z_Environment__") && Data.GetValue("Z_Environment__") != "" && Data.GetValue("Z_AccountID__") && Data.GetValue("Z_AccountID__") != "")
     {
-        var newOrnderId = "cn=" + Data.GetValue("Z_NewOwner__") + ",ou=" + Data.GetValue("Z_Environment__") + ",ou=" + Data.GetValue("Z_AccountID__") + ",ou=ESK,s=eoo";
+        newOrnderId = "cn=" + Data.GetValue("Z_NewOwner__") + ",ou=" + Data.GetValue("Z_Environment__") + ",ou=" + Data.GetValue("Z_AccountID__") + ",ou=ESK,s=eoo";
         return newOrnderId;
     }
 
-    return null;
+    return newOrnderId;
 }
 
-function GetOldOwnerIdentifier(OldOwner)
+function GetOldOwnerIdentifier(oldOwner)
 {
-    //For Example, Get this part "30582981341" from cn=1884675104$30582981341,ou=Vendors list,ou=QA,ou=00362710,ou=ESK,s=eoo
-    var regExp = /(cn=[0-9]+)(\$([A-Za-z0-9.@_-]+))/g;
-    
-    var OldIdentifierParts = regExp.exec(OldOwner);
+    //First example, if the old owner identifier is a vendor portal identifier, get this part "30582981341" from cn=1884675104$30582981341,ou=Vendors list,ou=QA,ou=00362710,ou=ESK,s=eoo
+    //Second example, if the old owner identifier is a common user identifier, get this part "30582981341" from cn=30582981341,ou=Vendors list,ou=QA,ou=00362710,ou=ESK,s=eoo
+    var oldOwnerRegExp = Data.GetValue("Z_isPortalProcess__") == 1 ? changeProcessOwnerGlobalParameters.vendorPortalOwnerRegExp: changeProcessOwnerGlobalParameters.processOwnerRegExp;
+    var oldOwnerRegExpIndex = Data.GetValue("Z_isPortalProcess__") == 1 ? 3 : 2;
 
-    if(OldIdentifierParts)
+    var oldIdentifierParts = oldOwnerRegExp.exec(oldOwner);
+    var oldOwnerIdentifier = null;
+
+    if(oldIdentifierParts)
     {
-        return OldIdentifierParts[3];
+        oldOwnerIdentifier = oldIdentifierParts[oldOwnerRegExpIndex];
     }
 
-    return null;
+    return oldOwnerIdentifier;
 }
 
 function GetTransports(processName,filter, atributes ,debug, limit)
@@ -150,12 +158,13 @@ function GetTransports(processName,filter, atributes ,debug, limit)
 	}
 	
 	var results = [];
-	var count = 0;
-	limit = (limit ? limit : 100);
+    var count = 0;
+    var query = Process.CreateQueryAsProcessAdmin();
+    
+    limit = (limit ? limit : 100);
+    
 	if(debug == true){Log.Error(".    Limit: " + limit);}
-	var query = Process.CreateQueryAsProcessAdmin();
 	
-    //query.Reset();
     if(processName && processName!= "")
     {
         query.SetSpecificTable("CDNAME#" + processName);
@@ -171,7 +180,7 @@ function GetTransports(processName,filter, atributes ,debug, limit)
 		{
 			if(debug == true)
 			{
-			//	Log.Info(".    Instance " + count + " exists. LongID: " + instance.GetUninheritedVars().GetValue_String("RUIDEX", 0));
+				Log.Info(".    Instance " + count + " exists. LongID: " + instance.GetUninheritedVars().GetValue_String("RUIDEX", 0));
 			}
 			results[count] = instance;
 			instance = query.MoveNext();
@@ -196,7 +205,7 @@ function GetTransports(processName,filter, atributes ,debug, limit)
 	return results;
 }
 
-function buildProcessFilter(registers)
+function BuildProcessFilter(registers)
 {
     var filter = "|";
     for(var i=0; i<registers.length; i++)
@@ -208,8 +217,8 @@ function buildProcessFilter(registers)
 
 function ProcessRegisters(registers)
 {
-    var filter = buildProcessFilter(registers);
-    var resultProcessMessage = GetTransports(Data.GetValue("Z_ProcessName__"),filter, "OwnerID,MsnEx,RUIDEX",true);
+    var filter = BuildProcessFilter(registers);
+    var resultProcessMessage = GetTransports(Data.GetValue("Z_ProcessName__"), filter, "OwnerID,MsnEx,RUIDEX", changeProcessOwnerGlobalParameters.debug);
     changeProcessOwnerGlobalParameters.ProcessMessagesInformation += "\n resultProcessMessage: " + JSON.stringify(resultProcessMessage);
 
     if(resultProcessMessage.length > 0)
@@ -217,43 +226,44 @@ function ProcessRegisters(registers)
         for(var i = 0; i < resultProcessMessage.length; i++)
         {
 
-            var ProcessMessageData = resultProcessMessage[i].GetUninheritedVars();
-            var OldOwner = ProcessMessageData.GetValue_String("OwnerID",0);
-            var longIdentifier = ProcessMessageData.GetValue_String("MsnEx",0);
+            var processMessageData = resultProcessMessage[i].GetUninheritedVars();
+            var oldOwner = processMessageData.GetValue_String("OwnerID",0);
+            var longIdentifier = processMessageData.GetValue_String("MsnEx",0);
 
-            Log.Info("ExOwnerID: " + OldOwner);
-            changeProcessOwnerGlobalParameters.ProcessMessagesInformation += "\n ExOwnerID: " + OldOwner;
+            Log.Info("ExOwnerID: " + oldOwner);
+            changeProcessOwnerGlobalParameters.ProcessMessagesInformation += "\n ExOwnerID: " + oldOwner;
 
-            if(Data.GetValue("Z_OldOwnerIdentifier__") == GetOldOwnerIdentifier(OldOwner) || Data.GetValue("Z_OldOwnerIdentifier__") == "")
+            if(Data.GetValue("Z_OldOwnerIdentifier__") == GetOldOwnerIdentifier(oldOwner) || Data.GetValue("Z_OldOwnerIdentifier__") == "")
             {   
-                var NewOwner = null;
+                var newOwner = null;
+
                 if(Data.GetValue("Z_isPortalProcess__") == 1)
                 {
-                    NewOwner = BuildNewOwnerToPortal(OldOwner);
+                    newOwner = BuildNewOwnerToPortal(oldOwner);
                 }
                 else
                 {
                     if(Data.GetValue("Z_ChangeEnvironment__") == 1)
                     {
-                        NewOwner = BuildNewOwnerChangeEnvironment();
+                        newOwner = BuildNewOwnerChangeEnvironment();
                     }
                     else
                     {
-                        NewOwner = BuildNewOwner(OldOwner);
+                        newOwner = BuildNewOwner(oldOwner);
                     }
                 }
                 
-                if(NewOwner)
+                if(newOwner)
                 {
-                    ProcessMessageData.AddValue_String("OwnerID",NewOwner,true);
+                    processMessageData.AddValue_String("OwnerID", newOwner, true);
                     
                     try
                     {
                         // I try process the changes in vendor invoice message
                         resultProcessMessage[i].Process();
                         
-                        changeProcessOwnerGlobalParameters.longIdentifierFixed.push({MsnEx: longIdentifier, newOwnerId: NewOwner, oldOwnerId: OldOwner});
-                        changeProcessOwnerGlobalParameters.ProcessMessagesInformation += "\n Ruidex updated: " + ProcessMessageData.GetValue_String("RUIDEX",0);
+                        changeProcessOwnerGlobalParameters.longIdentifierFixed.push({MsnEx: longIdentifier, newOwnerId: newOwner, oldOwnerId: oldOwner});
+                        changeProcessOwnerGlobalParameters.ProcessMessagesInformation += "\n Ruidex updated: " + processMessageData.GetValue_String("RUIDEX",0);
                         changeProcessOwnerGlobalParameters.successCount ++;
                     }
                     catch(err)
@@ -283,27 +293,31 @@ function ProcessRegisters(registers)
     }
 }
 
+//Read csv report and change owners each one hundred registers per request.
 function ChangeOwnerWithCSVReport()
 {
     // Get records of Process Message from CSV attached
-    var registers = ReadFromCSV.getRegisters();
+    var registers = ReadFromCSV(GetFirstCSVAttached()).getRegisters();
 
     // Process the registers with a limit
     if(registers)
     {
-        var limit = 100;
+        var limit = changeProcessOwnerGlobalParameters.limitPerQueryRequest;
         var control = 0;
-        var RegistersToProcess = [];
+        var registersToProcess = [];
+
         for(var i = 0; i < registers.length; i++ )
         {
-            RegistersToProcess.push(registers[i]);
+            registersToProcess.push(registers[i]);
+
             control ++;
             changeProcessOwnerGlobalParameters.globalProcessingCount++;
 
             if(control == limit || (limit < changeProcessOwnerGlobalParameters.globalProcessingLimit && control > 0))
             {
-                ProcessRegisters(RegistersToProcess);
-                RegistersToProcess = [];
+                ProcessRegisters(registersToProcess);
+
+                registersToProcess = [];
                 control = 0;
 
                 if(changeProcessOwnerGlobalParameters.globalProcessingCount >= changeProcessOwnerGlobalParameters.globalProcessingLimit)
@@ -314,9 +328,9 @@ function ChangeOwnerWithCSVReport()
             }
         }
         
-        if(RegistersToProcess.length > 0 && changeProcessOwnerGlobalParameters.globalProcessingCount < changeProcessOwnerGlobalParameters.globalProcessingLimit)
+        if(registersToProcess.length > 0 && changeProcessOwnerGlobalParameters.globalProcessingCount < changeProcessOwnerGlobalParameters.globalProcessingLimit)
         {
-            ProcessRegisters(RegistersToProcess);
+            ProcessRegisters(registersToProcess);
         }
     }
 }
@@ -351,17 +365,17 @@ function GetVendorLoginToFix()
 
             var loginRegExp = /[$a-zA-Z0-9]+[^_]/gm;
 
-            var CorrectLogin = loginRegExp.exec(recordVendorLogin);
-            if(CorrectLogin)
+            var correctLogin = loginRegExp.exec(recordVendorLogin);
+            if(correctLogin)
             {
-                if(vendorLoginToFix.hasOwnProperty(CorrectLogin))
+                if(vendorLoginToFix.hasOwnProperty(correctLogin))
                 {
-                    vendorLoginToFix[CorrectLogin].push(recordVendorLogin);
+                    vendorLoginToFix[correctLogin].push(recordVendorLogin);
                 }
                 else
                 {
-                    vendorLoginToFix[CorrectLogin] = [];
-                    vendorLoginToFix[CorrectLogin].push(recordVendorLogin);
+                    vendorLoginToFix[correctLogin] = [];
+                    vendorLoginToFix[correctLogin].push(recordVendorLogin);
                 }
             }
             else
@@ -386,16 +400,16 @@ function FixVendorLoginByProcessName(processName, filter, vendorLoginFixed)
     {
         if(resultProcessMessage.length > 0)
         {
-            var ProcessMessageData = resultProcessMessage[i].GetUninheritedVars();
-            var OldOwner = ProcessMessageData.GetValue_String("OwnerID",0);
-            var longIdentifier = ProcessMessageData.GetValue_String("MsnEx",0);
+            var processMessageData = resultProcessMessage[i].GetUninheritedVars();
+            var oldOwner = processMessageData.GetValue_String("OwnerID",0);
+            var longIdentifier = processMessageData.GetValue_String("MsnEx",0);
     
             Data.SetValue("Z_NewOwner__", vendorLoginFixed);
-            var newOwner = BuildNewOwner(OldOwner);
+            var newOwner = BuildNewOwner(oldOwner);
     
             if(newOwner)
             {
-                ProcessMessageData.AddValue_String("OwnerID", newOwner, true);
+                processMessageData.AddValue_String("OwnerID", newOwner, true);
                 
                 try
                 {
@@ -403,7 +417,7 @@ function FixVendorLoginByProcessName(processName, filter, vendorLoginFixed)
                     resultProcessMessage[i].Process();
                     changeProcessOwnerGlobalParameters.longIdentifierFixed.push({MsnEx: longIdentifier, newOwnerId: newOwner, oldOwnerId: OldOwner});
                     Variable.SetValueAsString("vendorLoginToFix", JSON.stringify(vendorLoginToFix));
-                    changeProcessOwnerGlobalParameters.ProcessMessagesInformation += "\n Ruidex updated: " + ProcessMessageData.GetValue_String("RUIDEX",0);
+                    changeProcessOwnerGlobalParameters.ProcessMessagesInformation += "\n Ruidex updated: " + processMessageData.GetValue_String("RUIDEX",0);
                     changeProcessOwnerGlobalParameters.successCount ++;
                 }
                 catch(err)
@@ -442,11 +456,14 @@ var changeProcessOwnerGlobalParameters = {
     successCount: 0,
     errorCount: 0,
 
-    vendorPortalOwnerRegExp: /(cn=[0-9]+)(\$[A-Za-z0-9.@_-]+)/g,
+    vendorPortalOwnerRegExp: /(cn=[0-9]+)(\$([A-Za-z0-9.@_-]+))/g,
     processOwnerRegExp: /(cn=)([$A-Za-z0-9.@_-]+)/g,
 
     longIdentifierFixed: [],
-    ProcessMessagesInformation: ""
+    ProcessMessagesInformation: "",
+
+    limitPerQueryRequest: 100,
+    debug: false
 };
 
 Process.SetTimeOut(changeProcessOwnerGlobalParameters.processingTimeOut);
@@ -526,4 +543,4 @@ Log.Info("Process change success: " + changeProcessOwnerGlobalParameters.success
 changeProcessOwnerGlobalParameters.ProcessMessagesInformation += "\n Process change success: " + changeProcessOwnerGlobalParameters.successCount + " || Process change error: " + changeProcessOwnerGlobalParameters.errorCount;
 Data.SetValue("Z_ProcessMessagesInformation__", changeProcessOwnerGlobalParameters.ProcessMessagesInformation);
 
-Process.PreventApproval();
+Process.PreventApproval();//Prevent approval in order to give the posibility to fix the register of the same csv report in errors case.
